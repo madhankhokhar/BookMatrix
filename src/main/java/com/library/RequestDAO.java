@@ -7,7 +7,7 @@ import java.util.List;
 public class RequestDAO {
     private static final String URL = "jdbc:mysql://localhost:3306/library";
     private static final String USER = "root";
-    private static final String PASSWORD = "Sql@123#";
+    private static final String PASSWORD = "password";
 
     public void addRequest(Request request) {
         String sql = "INSERT INTO requests (book_id, user_id, request_date, status, return_date) VALUES (?, ?, ?, ?, ?)";
