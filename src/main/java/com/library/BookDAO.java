@@ -7,7 +7,7 @@ import java.util.List;
 public class BookDAO {
     private static final String URL = "jdbc:mysql://localhost:3306/library";
     private static final String USER = "root";
-    private static final String PASSWORD = "Sql@123#";
+    private static final String PASSWORD = "password";
 
     public void addBook(Book book) {
         String sql = "INSERT INTO books (title, author, publisher, year, status, available) VALUES (?, ?, ?, ?, ?, ?)";
