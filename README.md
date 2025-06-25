@@ -1,4 +1,4 @@
-# Library Management System
+# BookMatrix - My Modern Book Tracking & Resource Platform!
 
 A robust, user-friendly Library Management System built with Java Swing and MySQL, designed for educational institutions and organizations to efficiently manage books, users, and library operations.
 
